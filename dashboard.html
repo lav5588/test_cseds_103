@@ -9,16 +9,19 @@
 <body>
     <div class="main-container">
         <div class="container">
-            <h1>Dashboard</h1>
-            <h1 id="welcome">Welcone Abhishek</h1>
+            <h2>Dashboard</h1>
+            <h2 id="welcome">Welcone Abhishek</h1>
             <section>
                 <button id="fetchBtn">Fetch Top 10 Users</button>
                 <select name="sortIng" id="sorting">
                     <option value="">default</option>
-                    <option value="asc">ascending</option>
-                    <option value="desc">descending</option>
+                    <option value="yes">alphabetical</option>
                 </select>
             </section>
+
+            <ul id="userLists"></ul>
+
+            <button id="logout">Logout</button>
         </div>
     </div>
     <script src="dashboard.js"></script>

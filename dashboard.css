@@ -1,0 +1,38 @@
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    color: rgb(127, 189, 34);
+}
+
+#fetchBtn{
+    background-color: green;
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 4px;
+    border-color: transparent;
+}
+
+
+
+#sorting{
+    height: 2rem;
+    border-radius: 4px;
+}
+
+li{
+    color: blue;
+    list-style: none;
+}
+
+#logout{
+    background-color: rgb(175, 39, 39);
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 4px;
+    border-color: transparent;
+}
